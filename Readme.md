@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Alexander Koblents](https://up.htmlacademy.ru/htmlcss/17/user/395743).
-* Наставник: `Неизвестно`.
+* Студент: [Alexander Koblents] (https://up.htmlacademy.ru/htmlcss/17/user/395743).
+* Наставник: [Сергей Рубец] (https://htmlacademy.ru/profile/id41580).
 
 ---
 
