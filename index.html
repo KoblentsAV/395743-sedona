@@ -7,7 +7,7 @@
   <body>
     <header class="main-header">
       <div class="container">
-        <nav class="main-navigation"
+        <nav class="main-navigation">
           <ul>
             <li>
               <a href="#">Информация</a>
@@ -83,14 +83,49 @@
           <p>— №5 —</p>
           <p>Большинство едет в гранд каньон и толпится там</p>
         </div>
+      </section>
       <div class="question">
         <h2>Заинтересовались?</h2>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
       </div>
-      <section class="search-from">
-        <div class="form-title"
-        </div>
-      </section>
+      <div class="search-from-title">
+        <b>Поиск гостиницы в Седоне</b>
+      </div>
+      <div class="search-form">
+        <form action="#" method="post">
+          <p class="date">
+            <label for="date-in-field">Дата заезда:</label>
+            <input type="date" name="date-in" id="date-in-field">
+          </p>
+          <p class="date">
+            <label for="date-out-field">Дата выезда:</label>
+            <input type="date" name="date-out" id="date-out-field">
+          </p>
+          <p class="age">
+            <label for="age-adults-field">Взрослые:</label>
+            <input type="text" name="age-adults" id="age-adults-field">
+            <label for="age-children-field">Дети:</label>
+            <input type="text" name="age-children" id="age-children-field">
+          </p>
+          <button type="submit" class="btn">Найти</button>
+        </form>
+      </div>
+      <div class="map-photo">
+        <img src="http://placehold.it/150x100" width="150" height="100" alt="Как нас найти">
+      </div>
+      <footer>
+        <section class="visit-sedona">
+          <a href="#">#visitsedona</a>
+        </section>
+        <section class="social">
+          <a href="#" class="social-twitter">...</a>
+          <a href="#" class="social-facebook">...</a>
+          <a href="#" class="social-youtube">...</a>
+        </section>
+        <section class="copyright">
+            <img src="http://placehold.it/150x100" width="150" height="100" alt="Website by html academy">
+        </section>
+      </footer>
     </main>
   </body>
 </html>
