@@ -1,8 +1,144 @@
+html {
+	background-color: #f2f2f2;
+}
+
 body {
+  width: 1200px;
+  background: white;
   font-size: 14px;
   line-height: 21px;
   color: #333333;
   font-family: sans-serif;
   font-weight: normal;
   text-transform: uppercase;
+  outline: 1px solid red;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: inherit;
+  outline: 1px solid green;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.main-navigation ul {
+  padding-left: 6%;
+  padding-right: 6%;
+  width: inherit;
+  padding-top: 20px;
+  min-height: 56px;
+  outline: 1px solid red;
+}
+
+.left-column {
+  display: inline-block;
+  width: 20%;
+  text-align: left;
+}
+
+.right-column {
+  display: inline-block;
+  width: 20%;
+  text-align: right;
+}
+
+.index-logo {
+  position: absolute;
+  top: 13px;
+}
+
+/*main*/
+
+.main-features {
+  width: 100%;
+  height: 773px;
+  background-color: white;
+  background-image: url("../img/background-photo.jpg");
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-photo img {
+  padding-top: 76px;
+display: block;
+margin: 0 auto;
+
+}
+
+.text-block {
+  width: inherit;
+  min-height: 273px;
+  background-image: url("../img/shape-merge.png");
+}
+
+.text-block h2,
+.text-block p {
+  text-align: center;
+}
+
+.text-block h2 {
+  padding-top: 120px;
+}
+
+.features-white {
+  background-color: #81B3D2;
+  display: inline-block;
+  width: 33%;
+  height: 256px;
+  vertical-align: top;
+}
+
+.city-view {
+  display: inline-block;
+  width: 66%;
+  border: none;
+}
+
+.advices {
+  outline: 1px solid red;
+  min-height: 330px;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+.advices .house {
+  float: left;
+  width: 33%;
+}
+
+.advices .food {
+  float: left;
+  width: 33%;
+}
+
+.advices .souvenir {
+  float: right;
+  width: 33%;
+}
+
+.bridge-view {
+  display: inline-block;
+  width: 66%;
+  border: none;
+}
+
+.features-without-photo {
+  background-color: #f2f2f2;
+
+}
+
+.features-black {
+  float: left;
+  width: 33%;
+  text-align: center;
 }

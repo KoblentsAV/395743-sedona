@@ -10,16 +10,16 @@
       <div class="container">
         <nav class="main-navigation">
           <ul>
-            <li>
+            <li class="left-column">
               <a href="#">Информация</a>
             </li>
-            <li>
+            <li class="left-column">
               <a href="#">Фото и видео</a>
             </li>
-            <li>
+            <li class="right-column">
               <a href="#">Карта штата</a>
             </li>
-            <li>
+            <li class="right-column">
               <a href="hotels.html">Гостиницы</a>
             </li>
           </ul>
@@ -31,8 +31,13 @@
     </header>
     <main class="container">
       <div class="main-features">
-        <b class="features-name">Седона — небольшой городок в аризоне,<br>заслуживающий большего</b>
-        <p>Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+        <figure class="main-photo">
+          <img src="img/background-text.png" width="458" height="352" alt="Welcome to Sedona">
+        </figure>
+        <div class="text-block">
+          <h2>Седона – небольшой городок в аризоне,<br>заслуживающий большего</h2>
+          <p>Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+        </div>
       </div>
       <section class="features-with-photo">
         <div class="features-white">
@@ -45,27 +50,27 @@
         </div>
       </section>
       <section class="advices">
-        <div class="advice">
+        <div class="house">
           <b>Жилье</b>
           <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
         </div>
-        <div class="advice">
+        <div class="food">
           <b>Еда</b>
           <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
         </div>
-        <div class="advice">
+        <div class="souvenir">
           <b>Сувениры</b>
           <p>Не только китайского, но и местного производства!</p>
         </div>
       </section>
       <section class="features-with-photo">
+        <div class="bridge-view">
+          <img src="img/content-image-feature2.jpg" width="800" height="256" alt="Фото моста">
+        </div>
         <div class="features-white">
           <b class="features-name">Там есть мост дьявола</b>
           <div>— №2 —</div>
           <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-        </div>
-        <div class="bridge-view">
-          <img src="img/content-image-feature2.jpg" width="800" height="256" alt="Фото моста">
         </div>
       </section>
       <section class="features-without-photo">
@@ -115,7 +120,7 @@
         <img src="http://placehold.it/150x100" width="150" height="100" alt="Как нас найти">
       </div>
     </main>
-    <footer>
+    <footer class="container">
       <section class="visit-sedona">
         <a href="#">#visitsedona</a>
       </section>
