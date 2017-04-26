@@ -33,7 +33,9 @@ body {
 }
 
 .top-navigation {
+	margin-top: 12.5px;
   display: inline-block;
+	vertical-align: middle;
 	font-weight: bold;
 	line-height: 26px;
 	text-align: left;
@@ -56,32 +58,30 @@ body {
 .index-logo {
   position: absolute;
   top: 13px;
-	display:  none;
+	display: none;
 }
 
 /*main*/
 
 .main-features {
   width: 100%;
-  height: 773px;
   background-color: white;
   background-image: url("../img/background-photo.jpg");
   margin: 0;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .main-photo img {
+	display: block;
+	margin: 0 auto;
   padding-top: 76px;
-display: block;
-margin: 0 auto;
-
 }
 
 .text-block {
   width: inherit;
-  min-height: 273px;
-  background-image: url("../img/shape-merge.png");
+  min-height: 216px;
+  background-color: white;
+	outline: 1px solid red;
 }
 
 .text-block h2,
@@ -90,6 +90,7 @@ margin: 0 auto;
 }
 
 .text-block h2 {
+	line-height: 26px;
   padding-top: 120px;
 }
 
