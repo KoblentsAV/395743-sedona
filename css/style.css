@@ -63,8 +63,9 @@ body {
 
 /*main*/
 
-.main-features {
+.hero {
   width: 100%;
+	height: 508px;
   background-color: white;
   background-image: url("../img/background-photo.jpg");
   margin: 0;
@@ -78,35 +79,61 @@ body {
 }
 
 .text-block {
+	margin: 0 auto;
   width: inherit;
   min-height: 216px;
   background-color: white;
-	outline: 1px solid red;
+	outline: 1px solid green;
+}
+
+.text-block h2 {
+	margin: 0 auto;
+	padding-top: 60px;
+}
+
+.text-block p {
+	padding-top: 27.5px;
 }
 
 .text-block h2,
 .text-block p {
-  text-align: center;
+	line-height: 26px;
+	text-align: center;
+	margin: 0 300px;
 }
 
-.text-block h2 {
-	line-height: 26px;
-  padding-top: 120px;
+.features-with-photo {
+	background-color: #81B3D2;
+	height: 256px;
 }
 
 .features-white {
-  background-color: #81B3D2;
   display: inline-block;
   width: 33%;
   height: 256px;
   vertical-align: top;
 }
 
+.features-white b {
+	display: block;
+	font-size: 21px;
+}
+
+.features-white b,
+.features-white div,
+.features-white p {
+	margin: 0 50px;
+	text-align: center;
+	color: white;
+}
+
 .city-view {
   display: inline-block;
   width: 66%;
-  border: none;
+	height: 256px;
 }
+
+
 
 .advices {
   outline: 1px solid red;
@@ -127,7 +154,7 @@ body {
 }
 
 .advices .souvenir {
-  float: right;
+  float: left;
   width: 33%;
 }
 
