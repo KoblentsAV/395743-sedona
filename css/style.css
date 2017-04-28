@@ -11,7 +11,6 @@ body {
   font-family: "PT Sans", sans-serif;
   font-weight: normal;
   text-transform: uppercase;
-  outline: 1px solid red;
   margin: 0 auto;
   padding: 0;
 }
@@ -22,7 +21,6 @@ a {
 }
 .container {
   width: inherit;
-  outline: 1px solid red;
   margin: 0 auto;
   padding: 0;
 	position: relative;
@@ -34,7 +32,6 @@ a {
   padding-right: 6%;
   width: inherit;
   min-height: 56px;
-  outline: 1px solid red;
 }
 
 .top-navigation {
@@ -71,6 +68,7 @@ a {
 
 /*main*/
 
+
 .hero {
   width: 100%;
 	height: 508px;
@@ -98,7 +96,6 @@ a {
   width: inherit;
   min-height: 216px;
   background-color: white;
-	outline: 1px solid green;
 }
 
 .text-block h2 {
@@ -117,6 +114,10 @@ a {
 	margin: 0 300px;
 }
 
+
+/*features №1 and №2*/
+
+
 .features-with-photo {
 	background-color: #81B3D2;
 	height: 256px;
@@ -129,47 +130,30 @@ a {
   vertical-align: top;
 }
 
-.features-white b {
-	display: block;
-	font-size: 21px;
-}
-
 .features-white b,
 .features-white div,
 .features-white p {
-	margin: 0 50px;
+	margin: 0 45px;
 	text-align: center;
 	color: white;
+}
+
+.features-white b {
+	display: block;
+	font-size: 21px;
+	margin: 0 100px;
+	margin-top: 46px;
+}
+
+.features-white div {
+	margin-top: 24px;
+	margin-bottom: 22px;
 }
 
 .city-view {
   display: inline-block;
   width: 66%;
-	height: 256px;
-}
-
-
-
-.advices {
-  outline: 1px solid red;
-  min-height: 330px;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.advices .house {
-  float: left;
-  width: 33%;
-}
-
-.advices .food {
-  float: left;
-  width: 33%;
-}
-
-.advices .souvenir {
-  float: left;
-  width: 33%;
+	border: none;
 }
 
 .bridge-view {
@@ -178,12 +162,159 @@ a {
   border: none;
 }
 
+
+/*advices-block*/
+
+
+.advices {
+  min-height: 330px;
+	text-align: center;
+}
+
+.advices .house {
+	position: relative;
+  float: left;
+  width: 33%;
+}
+
+.advices .food {
+	position: relative;
+  float: left;
+  width: 33%;
+}
+
+.advices .souvenir {
+	position: relative;
+  float: right;
+  width: 33%;
+}
+
+.advices b {
+	display: block;
+	font-size: 21px;
+	margin-top: 160px;
+}
+
+.advices p {
+	margin: 25px 50px 0 50px;
+
+}
+
+.advices-icon {
+	position: absolute;
+	left: 50%;
+}
+
+.house-icon {
+	margin-left: -37.5px;
+	top: 60px;
+}
+
+.food-icon {
+	margin-left: -37px;
+	top: 61px;
+}
+
+.souvenir-icon {
+	margin-left: -32px;
+	top: 56px;
+}
+
+
+	/*features №3, №4 and №5*/
+
+
 .features-without-photo {
-  background-color: #f2f2f2;
+  background-color: #eeeeee;
+	min-height: 256px;
 }
 
 .features-black {
   float: left;
   width: 33%;
   text-align: center;
+}
+
+.features-black:last-child {
+	float:right;
+}
+
+.features-black b {
+	font-size: 21px;
+	display: block;
+	margin: 46px 118px 0 118px;
+}
+
+.features-black div {
+	margin-top: 24px;
+}
+
+.features-black p {
+	margin: 20px 65px 0 65px;
+}
+
+
+/*promo-questiom*/
+
+
+.promo-block {
+	min-height: 291px;
+}
+
+.promo-question b,
+.promo-question p {
+	display: block;
+	text-align: center;
+	line-height: 24px;
+}
+
+.promo-question {
+	padding-top: 56px;
+}
+
+.promo-question b {
+	font-size: 30px;
+}
+
+.promo-question p {
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+
+
+/*map-block*/
+
+
+.map-photo {
+	width: inherit;
+	height: 473px;
+	position: relative;
+}
+
+.map-photo iframe {
+	position: absolute;
+	top: 0;
+}
+
+
+/*footer*/
+
+
+.main-footer {
+	width: inherit;
+	min-height: 120px;
+	outline: 1px solid green;
+}
+
+.footer-block {
+	display: inline-block;
+	width: 33%;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.visit-sedona {
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 26px;
 }

@@ -54,14 +54,23 @@
       </section>
       <section class="advices">
         <div class="house">
+          <div class="advices-icon house-icon">
+            <img src="img/icon-house.png" width="75" height="72" alt="">
+          </div>
           <b>Жилье</b>
           <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
         </div>
         <div class="food">
+          <div class="advices-icon food-icon">
+            <img src="img/icon-burger.png" width="74" height="70" alt="">
+          </div>
           <b>Еда</b>
           <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
         </div>
         <div class="souvenir">
+          <div class="advices-icon souvenir-icon">
+            <img src="img/icon-souvenir.png" width="64" height="76" alt="">
+          </div>
           <b>Сувениры</b>
           <p>Не только китайского, но и местного производства!</p>
         </div>
@@ -78,29 +87,31 @@
       </section>
       <section class="features-without-photo">
         <div class="features-black">
-          <b class="features-name">Небольшая площадь</b>
+          <b>Небольшая площадь</b>
           <div>— №3 —</div>
           <p>Все достопримечательности находятся очень близко</p>
         </div>
         <div class="features-black">
-          <b class="features-name">Красивая дорога</b>
+          <b>Красивая дорога</b>
           <div>— №4 —</div>
           <p>Ехать в седону из лас-вегаса совсем не скучно!</p>
         </div>
         <div class="features-black">
-          <b class="features-name">Мало туристов</b>
+          <b>Мало туристов</b>
           <div>— №5 —</div>
           <p>Большинство едет в гранд каньон и толпится там</p>
         </div>
       </section>
-      <div class="question">
-        <h2>Заинтересовались?</h2>
-        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+      <div class="promo-block">
+        <div class="promo-question">
+          <b>Заинтересовались?</b>
+          <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        </div>
       </div>
-      <div class="search-from-title">
+      <div class="search-from-title" hidden>
         <b>Поиск гостиницы в Седоне</b>
       </div>
-      <div class="search-form">
+      <div class="search-form" hidden>
         <form action="#" method="post">
           <div class="date">
             <label for="date-in-field">Дата заезда:</label>
@@ -120,23 +131,28 @@
         </form>
       </div>
       <div class="map-photo">
-        <img src="http://placehold.it/150x100" width="150" height="100" alt="Как нас найти">
+        <img src="img/background-map.jpg" width="1200" height="473" alt="Местоположение города">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d498202.95006931084!2d-111.88122326992082!3d34.88270488061969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1493389205749" width="1200" height="473" frameborder="0" style="border:0" allowfullscreen>
+        </iframe>
       </div>
     </main>
-    <footer class="container">
-      <section class="visit-sedona">
-        <a href="#">#visitsedona</a>
-      </section>
-      <section class="social">
-        <a href="#" class="social-twitter">Twitter</a>
-        <a href="#" class="social-facebook">Facebook</a>
-        <a href="#" class="social-youtube">Youtube</a>
-      </section>
-      <section class="copyright">
-        <a href="https://htmlacademy.ru/intensive/htmlcss" class="intensive">
-          <img src="img/logo-html-academy.png" width="113" height="39" alt="Website by html academy">
-        </a>
-      </section>
+    <footer class="main-footer">
+      <div class="container">
+        <section class="footer-block visit-sedona">
+          <a href="#">#visitsedona</a>
+        </section>
+        <section class="footer-block social">
+          <a href="#" class="social-twitter">Twitter</a>
+          <a href="#" class="social-facebook">Facebook</a>
+          <a href="#" class="social-youtube">Youtube</a>
+        </section>
+        <section class="footer-block copyright">
+          <div class="label-logo">Website by</div>
+          <a href="https://htmlacademy.ru/intensive/htmlcss" class="intensive">
+            <img src="img/logo-html-academy.png" width="113" height="39" alt="Website by html academy">
+          </a>
+        </section>
+      </div>
     </footer>
   </body>
 </html>
