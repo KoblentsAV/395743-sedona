@@ -300,20 +300,44 @@ a {
 
 .main-footer {
 	outline: 1px solid green;
+	padding-left: 6%;
+	padding-right: 6%;
 }
 
 .footer-block {
 	display: inline-block;
 	width: 33%;
-	margin-top: 15px;
-	margin-bottom: 20px;
+	margin-top: 40px;
+	margin-bottom: 25px;
 	text-align: center;
+	vertical-align: middle;
+}
+
+.sedona-tag {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.label-logo {
+	font-size: 14px;
+	line-height: 26px;
+	position: relative;
+	text-align: right;
+}
+
+.intensive {
+	position: absolute;
+	top: 50%;
+	margin-top: -19.5px;
+	right: 45px;
 }
 
 .social {
 	display: inline-block;
-	width: 48px;
-	height: 46px;
+	width: 46px;
+	height: 48px;
 	background-color: #81B3D2;
 	background-image: url("../img/sprite-social.png");
 	background-repeat: no-repeat;
@@ -325,5 +349,9 @@ a {
 }
 
 .social-facebook {
-	background-position: 10px 0px;
+	background-position: 8px 2px;
+}
+
+.social-youtube {
+	background-position: -63px 5px;
 }
