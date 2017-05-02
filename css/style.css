@@ -300,38 +300,35 @@ a {
 
 .main-footer {
 	outline: 1px solid green;
-	padding-left: 6%;
-	padding-right: 6%;
+	position: relative;
 }
 
 .footer-block {
 	display: inline-block;
 	width: 33%;
-	margin-top: 40px;
-	margin-bottom: 25px;
+	margin-top: 37px;
+	margin-bottom: 29px;
 	text-align: center;
 	vertical-align: middle;
+	outline: 1px solid green;
 }
 
 .sedona-tag {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: bold;
-	text-align: left;
 }
 
 .label-logo {
 	font-size: 14px;
 	line-height: 26px;
-	position: relative;
-	text-align: right;
 }
 
 .intensive {
 	position: absolute;
 	top: 50%;
-	margin-top: -19.5px;
-	right: 45px;
+	margin-top: -15px;
+	right: 15px;
 }
 
 .social {
