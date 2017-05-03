@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  width: 1200px;
+  max-width: 1200px;
   background: white;
   font-size: 14px;
   line-height: 21px;
@@ -60,7 +60,7 @@ a {
 }
 
 .top-navigation:nth-child(4) {
-	margin-right: 0;
+	margin-right: -2px;
 }
 
 .right-column {
@@ -357,3 +357,46 @@ a {
 /*hotels.hmtl*/
 
 /*main*/
+
+.filter-area {
+	outline: 1px solid green;
+	padding-left: 6%;
+	padding-right: 6%;
+	padding-top: 30px;
+}
+
+.filter {
+	display: inline-block;
+	width: 150px;
+	vertical-align: top;
+	outline: 1px solid red;
+	margin-right: 90px;
+}
+
+.filter:last-child {
+	margin-right: 0;
+}
+
+.filter-price {
+	width: 400px;
+	margin-left: 168px;
+}
+
+.filter-title {
+	display: block;
+	margin-bottom: 25px;
+}
+
+.check {
+	margin-bottom: 25px;
+}
+
+.filter-sort {
+	padding: 30px 6%;
+	border-bottom: 1px solid #e5e5e5;
+}
+.last-filter {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+}
