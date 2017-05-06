@@ -471,14 +471,32 @@ a {
 	float: right;
 	height: 90px;
 	vertical-align: bottom;
+	text-align: right;
+	position: relative;
+}
+
+.rating-icon {
+	position: absolute;
+	width: 96px;
+	height: 17px;
 	background-image: url("../img/icon-star.png");
 	background-repeat: repeat-x;
+	background-position: top right;
+	right: 0;
+}
+
+.star-3 {
+	width: 72px;
+}
+
+.star-2 {
+	width: 48px;
 }
 
 .rating-number {
 	display: inline-block;
 	margin-bottom: -70px;
-	padding: 3px 16px;
+	padding: 3px 14px;
 	color: #666666;
 	background-color: #f2f2f2;
 	vertical-align: bottom;
