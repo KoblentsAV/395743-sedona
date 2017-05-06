@@ -50,7 +50,6 @@ a {
 	vertical-align: middle;
 	font-weight: bold;
 	line-height: 26px;
-	text-align: left;
   width: 20%;
 	margin-right: 26px;
 }
@@ -86,13 +85,15 @@ a {
   background-image: url("../img/background-photo.jpg");
   margin: 0;
   background-repeat: no-repeat;
-	position: relative;
 }
 
-.mask-shape {
-	position: absolute;
-	bottom: 0;
-	margin-bottom: -6px;
+.hero::after {
+	content: "";
+	display: block;
+	background-image: url("../img/shape-mask.png");
+	width: 1200px;
+	height: 57px;
+	margin-top: 23px;
 }
 
 .main-photo img {
@@ -101,23 +102,23 @@ a {
   padding-top: 76px;
 }
 
-.text-block {
+.text-start {
 	margin: 0 auto;
   min-height: 216px;
   background-color: white;
 }
 
-.block-title {
+.start-title {
 	margin: 0 auto;
 	padding-top: 60px;
 }
 
-.block-paragraph {
+.start-paragraph {
 	padding-top: 27.5px;
 }
 
-.block-title,
-.block-paragraph {
+.start-title,
+.start-paragraph {
 	line-height: 26px;
 	text-align: center;
 	margin: 0 300px;
@@ -129,31 +130,30 @@ a {
 
 .features-with-photo {
 	background-color: #81B3D2;
-	height: 256px;
 }
 
-.photo-block {
+.photo-features {
   display: inline-block;
   width: 33%;
   vertical-align: top;
 }
 
-.photo-block-name,
-.photo-block-number,
-.photo-block-paragraph {
+.photo-features-name,
+.photo-features-number,
+.photo-features-paragraph {
 	margin: 0 45px;
 	text-align: center;
 	color: white;
 }
 
-.photo-block-name {
+.photo-features-name {
 	display: block;
 	font-size: 21px;
 	margin: 0 100px;
 	margin-top: 46px;
 }
 
-.photo-block-number {
+.photo-features-number {
 	margin-top: 24px;
 	margin-bottom: 22px;
 }
@@ -163,9 +163,17 @@ a {
   width: 66%;
 }
 
+.city-view img {
+	vertical-align: bottom;
+}
+
 .bridge-view {
   display: inline-block;
   width: 66%;
+}
+
+.bridge-view img {
+	vertical-align: bottom;
 }
 
 
@@ -184,9 +192,7 @@ a {
 }
 
 .advice-right {
-	position: relative;
   float: right;
-  width: 33%;
 }
 
 .advices b {
@@ -227,27 +233,27 @@ a {
   background-color: #eeeeee;
 }
 
-.background-block {
+.text-features {
   float: left;
   width: 33%;
   text-align: center;
 }
 
-.background-right {
+.text-right {
 	float:right;
 }
 
-.background-block b {
+.text-features b {
 	font-size: 21px;
 	display: block;
 	margin: 46px 118px 0 118px;
 }
 
-.background-block div {
+.text-features div {
 	margin-top: 24px;
 }
 
-.background-block p {
+.text-features p {
 	margin: 20px 65px 62px 65px;
 }
 
@@ -255,7 +261,7 @@ a {
 /*promo-questiom*/
 
 
-.promo-block {
+.promo-form {
 	min-height: 291px;
 }
 
@@ -303,7 +309,7 @@ a {
 	position: relative;
 }
 
-.footer-block {
+.footer-column {
 	display: inline-block;
 	width: 33%;
 	margin-top: 37px;
@@ -420,17 +426,17 @@ a {
 	border-bottom: 1px solid #e5e5e5;
 }
 
-.result-block {
+.result {
 	float: left;
 	margin-right: 30px;
 	max-width: 260px;
 }
 
-.result-block img {
+.result img {
 	vertical-align: bottom;
 }
 
-.result-block .big-title {
+.result .big-title {
 	margin: 0;
 }
 
@@ -449,7 +455,7 @@ a {
 	color: white;
 }
 
-.result-block a:last-child {
+.result a:last-child {
 	margin-right: 0;
 }
 
