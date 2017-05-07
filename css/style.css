@@ -298,6 +298,7 @@ a {
 .map-photo iframe {
 	position: absolute;
 	top: 0;
+	left: 0;
 }
 
 
@@ -305,36 +306,39 @@ a {
 
 
 .main-footer {
-	outline: 1px solid green;
-	position: relative;
+	padding: 35px 6% 30px 6%;
 }
 
 .footer-column {
 	display: inline-block;
 	width: 33%;
-	margin-top: 37px;
-	margin-bottom: 29px;
 	text-align: center;
 	vertical-align: middle;
-	outline: 1px solid green;
 }
 
 .sedona-tag {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: bold;
+	text-align: left;
+}
+
+.tag {
+	margin-left: 60px;
 }
 
 .label-logo {
 	font-size: 14px;
 	line-height: 26px;
+	margin-right: 20px;
+	position: relative;
 }
 
 .intensive {
 	position: absolute;
 	top: 50%;
-	margin-top: -15px;
-	right: 15px;
+	margin-top: -20px;
+	right: 30px;
 }
 
 .social {
@@ -369,6 +373,8 @@ a {
 	padding-left: 6%;
 	padding-right: 6%;
 	padding-top: 30px;
+	background-image: url("../img/background-filter.jpg");
+	background-repeat: no-repeat;
 }
 
 .filter {
@@ -408,6 +414,49 @@ a {
 	margin-right: 28px;
 	font-size: 12px;
 	line-height: 18px;
+}
+
+.arrows {
+	width: 35px;
+	position: relative;
+	margin-left: 473px;
+	margin-right: 0;
+}
+
+.arrow-up {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 5.5px 10px 5.5px;
+	border-color: transparent transparent #cccccc transparent;
+	position: absolute;
+	left: 0;
+}
+
+.arrow-up:hover {
+	border-color: transparent transparent #000000 transparent;
+}
+
+.arrow-up:active {
+	border-color: transparent transparent #81b3d2 transparent;
+}
+
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 5.5px 0 5.5px;
+	border-color: #cccccc transparent transparent transparent;
+	position: absolute;
+	right: 0;
+}
+
+.arrow-down:hover {
+	border-color: #000000 transparent transparent transparent;
+}
+
+.arrow-down:active {
+	border-color: #81b3d2 transparent transparent transparent;
 }
 
 .big-title {
