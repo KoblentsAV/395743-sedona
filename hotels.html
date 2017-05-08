@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Поиск гостиницы</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
   </head>
   <body>
     <header class="main-header">
@@ -19,9 +20,7 @@
             <li class="top-navigation right-column">
               <a href="#">Карта штата</a>
             </li>
-            <li class="top-navigation right-column">
-              <a href="hotels.html">Гостиницы</a>
-            </li>
+            <li class="top-navigation right-column active">Гостиницы</li>
           </ul>
         </nav>
         <div class="index-logo">
@@ -35,31 +34,31 @@
           <div class="filter">
             <b class="filter-title">Инфраструктура:</b>
             <div class="check">
-              <label for="check-pool">Бассейн</label>
               <input type="checkbox" name="check-field" id="check-pool" checked>
+              <label for="check-pool">Бассейн</label>
             </div>
             <div class="check">
-              <label for="check-parking">Парковка</label>
               <input type="checkbox" name="check-field" id="check-parking">
+              <label for="check-parking">Парковка</label>
             </div>
             <div class="check">
-              <label for="check-wi-fi">WI-FI</label>
               <input type="checkbox" name="check-field" id="check-wi-fi">
+              <label for="check-wi-fi">WI-FI</label>
             </div>
           </div>
           <div class="filter">
             <b class="filter-title">Тип жилья:</b>
             <div class="check">
-              <label for="check-hotel">Гостиница</label>
               <input type="checkbox" name="check-field" id="check-hotel" checked>
+              <label for="check-hotel">Гостиница</label>
             </div>
             <div class="check">
-              <label for="check-motel">Мотель</label>
               <input type="checkbox" name="check-field" id="check-motel" checked>
+              <label for="check-motel">Мотель</label>
             </div>
             <div class="check">
-              <label for="check-apartments">Апартаменты</label>
               <input type="checkbox" name="check-field" id="check-apartments" checked>
+              <label for="check-apartments">Апартаменты</label>
             </div>
           </div>
           <div class="filter filter-price">
@@ -82,12 +81,12 @@
       <section class="filter-sort">
         <div class="big-title kind-of-sorting">найдено: 3</div>
         <p class="sort-title kind-of-sorting">сортировка:</p>
-        <a href="#" class="price kind-of-sorting">по цене</a>
-  		  <a href="#" class="type kind-of-sorting">по типу</a>
-  		  <a href="#" class="rating kind-of-sorting">по рейтингу</a>
+        <a href="#" class="click-to-sort kind-of-sorting active">по цене</a>
+  		  <a href="#" class="click-to-sort kind-of-sorting">по типу</a>
+  		  <a href="#" class="click-to-sort kind-of-sorting">по рейтингу</a>
         <div class="arrows kind-of-sorting">
 			    <a href="#" class="arrow-up"></a>
-			    <a href="#" class="arrow-down"></a>
+			    <a href="#" class="arrow-down active"></a>
 		    </div>
       </section>
       <article class="filter-result clearfix">
@@ -95,7 +94,7 @@
           <img src="img/content-image-search-result1.jpg" width="135" height="90" alt="Как нас найти">
         </div>
         <div class="result">
-          <div class="big-title">amara resort & spa</div>
+          <div class="big-title hotel-title">amara resort & spa</div>
           <p class="how-much">гостиница</p>
           <p class="how-much">от 4000 р.</p>
           <a href="#" class="push details">подробнее</a><!--
@@ -111,7 +110,7 @@
           <img src="img/content-image-search-result2.jpg" width="135" height="90" alt="Как нас найти">
         </div>
         <div class="result">
-          <div class="big-title">desert quail inn</div>
+          <div class="big-title hotel-title">desert quail inn</div>
           <p class="how-much">мотель</p>
           <p class="how-much">от 3000 р.</p>
           <a href="#" class="push details">подробнее</a><!--
@@ -127,7 +126,7 @@
           <img src="img/content-image-search-result3.jpg" width="135" height="90" alt="Как нас найти">
         </div>
         <div class="result">
-          <div class="big-title">villas at poco diablo</div>
+          <div class="big-title hotel-title">villas at poco diablo</div>
           <p class="how-much">апартаменты</p>
           <p class="how-much">от 2000 р.</p>
           <a href="#" class="push details">подробнее</a><!--
