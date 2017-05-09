@@ -293,7 +293,7 @@ a img {
 }
 
 .promo-question {
-	padding-top: 56px;
+	padding-top: 53px;
 }
 
 .promo-question b {
@@ -302,7 +302,7 @@ a img {
 
 .promo-question p {
 	margin-top: 30px;
-	margin-bottom: 40px;
+	margin-bottom: 47px;
 }
 
 .search-title {
@@ -327,6 +327,7 @@ a img {
 	padding: 55px 0;
 	line-height: 26px;
 	font-weight: bold;
+	box-shadow: 0 0 25px 0 rgba(0,1,1,0.17);
 }
 
 .sedona-search {
@@ -335,22 +336,24 @@ a img {
 	font-size: 14px;
 	font-weight: bold;
 	line-height: 26px;
-	margin-bottom: 25px;
+	margin-bottom: 30px;
 	padding: 5px 10px;
+	text-transform: uppercase;
 }
 
 .date-form {
 	width: 326px;
-	margin-left: 16px;
+	margin-left: 20px;
 }
 
 .date-extra-margin {
-	margin-left: 19.5px;
+	margin-left: 23.5px;
 }
 
 .age-form {
 	width: 94px;
-	margin-left: 36px;
+	margin-left: 39.5px;
+	margin-bottom: 55px;
 }
 
 .age-extra-margin {
@@ -364,11 +367,12 @@ a img {
 
 .btn {
 	border: none;
-	width: 455px;
-	padding: 20px 0;
+	width: 458px;
+	padding: 16px 0;
 	font-size: 21px;
 	font-weight: bold;
 	line-height: 26px;
+	text-transform: uppercase;
 	color: white;
 	background-color: #81b3d2;
 }
