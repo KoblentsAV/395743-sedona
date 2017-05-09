@@ -22,6 +22,10 @@ a {
 	text-decoration: none;
 }
 
+a img {
+	border: none;
+}
+
 .clearfix::after {
   content: "";
 
@@ -144,6 +148,7 @@ a {
 
 .features-with-photo {
 	background-color: #81B3D2;
+	height: 256px;
 }
 
 .photo-features {
@@ -152,10 +157,11 @@ a {
   vertical-align: top;
 }
 
+
 .photo-features-name,
 .photo-features-number,
 .photo-features-paragraph {
-	margin: 0 45px;
+	margin: 0 50px;
 	text-align: center;
 	color: white;
 }
@@ -163,13 +169,17 @@ a {
 .photo-features-name {
 	display: block;
 	font-size: 21px;
-	margin: 0 100px;
+	margin: 0 122.5px;
 	margin-top: 46px;
 }
 
 .photo-features-number {
 	margin-top: 24px;
 	margin-bottom: 22px;
+}
+
+.photo-features-paragraph {
+	margin: 0 45px;
 }
 
 .city-view {
@@ -275,10 +285,6 @@ a {
 /*promo-questiom*/
 
 
-.promo-form {
-	min-height: 291px;
-}
-
 .promo-question b,
 .promo-question p {
 	display: block;
@@ -296,8 +302,77 @@ a {
 
 .promo-question p {
 	margin-top: 30px;
-	margin-bottom: 0;
+	margin-bottom: 40px;
 }
+
+.search-title {
+	position: relative;
+	margin: 0 auto;
+	padding: 30px 0;
+	width: 568px;
+	background-color: #766357;
+	text-align: center;
+	color: white;
+	font-size: 21px;
+	line-height: 26px;
+}
+
+.search-form {
+	position: absolute;
+	z-index: 1;
+	width: 568px;
+	background-color: white;
+	left: 50%;
+	margin-left: -284px;
+	padding: 55px 0;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+.sedona-search {
+	border: none;
+	background-color: #f2f2f2;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 26px;
+	margin-bottom: 25px;
+	padding: 5px 10px;
+}
+
+.date-form {
+	width: 326px;
+	margin-left: 16px;
+}
+
+.date-extra-margin {
+	margin-left: 19.5px;
+}
+
+.age-form {
+	width: 94px;
+	margin-left: 36px;
+}
+
+.age-extra-margin {
+	margin-left: 22.5px;
+}
+
+.date-label,
+.btn {
+	margin-left: 55px;
+}
+
+.btn {
+	border: none;
+	width: 455px;
+	padding: 20px 0;
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 26px;
+	color: white;
+	background-color: #81b3d2;
+}
+
 
 
 /*map-block*/
@@ -380,7 +455,7 @@ a {
 }
 
 .social-twitter:active {
-	background-color: rgba(255, 255, 255, 0.302);
+	opacity: 0.5;
 }
 
 .social-facebook {
