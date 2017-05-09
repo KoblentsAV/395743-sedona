@@ -320,7 +320,7 @@ a {
 
 
 .main-footer {
-	padding: 35px 6% 30px 6%;
+	padding: 30px 6% 30px 6%;
 }
 
 .footer-column {
@@ -362,7 +362,9 @@ a {
 	background-color: #81B3D2;
 	background-image: url("../img/sprite-social.png");
 	background-repeat: no-repeat;
-	margin-right: 5px;
+	margin-right: 1px;
+	margin-left: 1px;
+	margin-top: 3px;
 }
 
 .social:hover {
@@ -398,8 +400,8 @@ a {
 	outline: 1px solid green;
 	padding-left: 6%;
 	padding-right: 6%;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 25px;
+	padding-bottom: 11px;
 	background-image: url("../img/background-filter.jpg");
 	background-repeat: no-repeat;
 	color: white;
@@ -415,7 +417,7 @@ input[type="checkbox"] + label {
 	display: block;
 	position: relative;
 	line-height: 21px;
-	margin: 23px 0;
+	margin: 24px 0;
 	padding-left: 40px;
 	cursor: pointer;
 }
@@ -454,8 +456,7 @@ input[type="checkbox"]:checked + label:active {
 	display: inline-block;
 	width: 150px;
 	vertical-align: top;
-	outline: 1px solid red;
-	margin-right: 90px;
+	margin-right: 100px;
 }
 
 .filter:last-child {
@@ -464,13 +465,14 @@ input[type="checkbox"]:checked + label:active {
 
 .filter-price {
 	width: 400px;
-	margin-left: 168px;
+	margin-left: 100px;
 }
 
 .filter-title {
 	display: block;
 	margin-bottom: 25px;
 	font-size: 16px;
+	margin-left: 0;
 }
 
 .filter-sort {
@@ -510,6 +512,7 @@ input[type="checkbox"]:checked + label:active {
 	position: relative;
 	margin-left: 473px;
 	margin-right: 0;
+	margin-top: -10px;
 }
 
 .arrow-up {
@@ -519,7 +522,7 @@ input[type="checkbox"]:checked + label:active {
 	border-width: 0 5.5px 10px 5.5px;
 	border-color: transparent transparent #cccccc transparent;
 	position: absolute;
-	left: 0;
+	left: 1;
 }
 
 .arrow-down.active {
@@ -554,9 +557,9 @@ input[type="checkbox"]:checked + label:active {
 
 .big-title {
 	font-size: 21px;
-	line-height: 26px;
 	font-weight: bold;
 	margin-right: 45px;
+	line-height: 12px;
 }
 
 .sort-title {
@@ -593,8 +596,8 @@ input[type="checkbox"]:checked + label:active {
 .how-much {
 	display: inline-block;
 	width: 110px;
-	margin-top: 7px;
-	margin-bottom: 9px;
+	margin-top: 15px;
+	margin-bottom: 12px;
 }
 
 .push {
@@ -638,10 +641,10 @@ input[type="checkbox"]:checked + label:active {
 
 .rating-star {
 	float: right;
-	height: 90px;
 	vertical-align: bottom;
 	text-align: right;
 	position: relative;
+	margin-top: -4px;
 }
 
 .rating-icon {
