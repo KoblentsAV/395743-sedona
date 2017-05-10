@@ -401,6 +401,72 @@ a img {
 	background-color: #5496bd;
 }
 
+.icon-calendar {
+	position: absolute;
+	width: 21px;
+	height: 22px;
+	top: 63px;
+	right: 64px;
+	background-image: url("../img/icon-form-calendar.png");
+	z-index: 1;
+}
+
+.icon-calendar-down {
+	top: 130px;
+}
+
+.icon-calendar:hover {
+	background-image: url("../img/icon-calendar-black.png");
+}
+
+.icon-calendar:active {
+	background-image: url("../img/icon-calendar-blue.png");
+}
+
+.icon-minus {
+	position: absolute;
+	width: 12px;
+	height: 3px;
+	top: 208px;
+	right: 143px;
+	background-image: url("../img/icon-form-minus.png");
+	z-index: 1;
+}
+
+.icon-minus-left {
+	right: 376px;
+}
+
+.icon-plus {
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	top: 204px;
+	right: 68px;
+	background-image: url("../img/icon-form-plus.png");
+	z-index: 1;
+}
+
+.icon-plus-left {
+	right: 301px;
+}
+
+.icon-minus:hover {
+	background-image: url("../img/icon-minus-black.png");
+}
+
+.icon-minus:active {
+	background-image: url("../img/icon-minus-blue.png");
+}
+
+.icon-plus:hover {
+	background-image: url("../img/icon-plus-black.png");
+}
+
+.icon-plus:active {
+	background-image: url("../img/icon-plus-blue.png");
+}
+
 
 
 /*map-block*/
