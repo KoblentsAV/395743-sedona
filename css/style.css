@@ -882,8 +882,8 @@ input[type="checkbox"]:checked + label:disabled {
 
 .result {
 	float: left;
-	margin-right: 30px;
-	max-width: 260px;
+	margin-right: 32px;
+	max-width: 750px;
 }
 
 .result img {
@@ -904,9 +904,11 @@ input[type="checkbox"]:checked + label:disabled {
 
 .how-much {
 	display: inline-block;
-	width: 110px;
+	min-width: 110px;
+	max-width: 180px;
 	margin-top: 15px;
-	margin-bottom: 12px;
+	margin-bottom: 6px;
+	overflow: hidden;
 }
 
 .push {
@@ -959,6 +961,7 @@ input[type="checkbox"]:checked + label:disabled {
 	position: absolute;
 	width: 96px;
 	height: 17px;
+	color: transparent;
 	background-image: url("../img/icon-star.png");
 	background-repeat: repeat-x;
 	background-position: top right;
