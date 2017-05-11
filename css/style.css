@@ -327,8 +327,7 @@ a img {
 	z-index: 1;
 	width: 568px;
 	background-color: white;
-	left: 50%;
-	margin-left: -284px;
+	left: 316px;
 	padding: 55px 0;
 	line-height: 26px;
 	font-weight: bold;
@@ -427,7 +426,7 @@ a img {
 	position: absolute;
 	width: 12px;
 	height: 3px;
-	top: 208px;
+	top: 53%;
 	right: 143px;
 	background-image: url("../img/icon-form-minus.png");
 	z-index: 1;
@@ -441,7 +440,7 @@ a img {
 	position: absolute;
 	width: 11px;
 	height: 11px;
-	top: 204px;
+	top: 52%;
 	right: 68px;
 	background-image: url("../img/icon-form-plus.png");
 	z-index: 1;
@@ -591,7 +590,6 @@ a img {
 
 
 .filter-area {
-	outline: 1px solid green;
 	padding-left: 6%;
 	padding-right: 6%;
 	padding-top: 25px;
