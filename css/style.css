@@ -274,7 +274,7 @@ a img {
 .text-features b {
 	font-size: 21px;
 	display: block;
-	margin: 46px 118px 0 118px;
+	margin: 46px 137px 0 140px;
 }
 
 .text-features div {
@@ -334,6 +334,7 @@ a img {
 
 .sedona-search {
 	border: none;
+	font-family: "PT Sans", Arial, sans-serif;
 	background-color: #f2f2f2;
 	height: 26px;
 	font-size: 14px;
@@ -370,12 +371,16 @@ a img {
 }
 
 .age-extra-margin {
-	margin-left: 22.5px;
+	margin-left: 27px;
 }
 
 .date-label,
 .btn {
 	margin-left: 55px;
+}
+
+.date-label-child {
+	margin-left: 51px;
 }
 
 .btn {
@@ -668,7 +673,7 @@ input[type="checkbox"]:checked + label:disabled {
 }
 
 .price-controls {
-  height: 36px;
+  height: 32px;
   margin-bottom: 20px;
 	font-size: 0;
   border: 2px solid #ffffff;
@@ -783,7 +788,7 @@ input[type="checkbox"]:checked + label:disabled {
 }
 
 .filter-price .filter-title {
-	margin-bottom: 9px;
+	margin-bottom: 11px;
 }
 
 .filter-sort {
