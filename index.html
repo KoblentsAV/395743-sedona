@@ -37,20 +37,20 @@
         </div>
       </div>
       <div class="text-start">
-          <h2 class="start-title">Седона – небольшой городок в аризоне, заслуживающий большего</h2>
+          <h2 class="start-title">Седона – небольшой городок в аризоне, заслуживающий большего!</h2>
           <p class="start-paragraph">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
       </div>
       <section class="features-with-photo">
         <div class="photo-features">
           <b class="photo-features-name">Настоящий городок</b>
           <div class="photo-features-number">— №1 —</div>
-          <p class="photo-features-paragraph">Седона — не аттракцион для туристов, там течет своя жизнь</p>
-        </div>
-        <div class="city-view">
+          <p class="photo-features-paragraph">Седона — не аттракцион для туристов,<br>там течет своя жизнь</p>
+        </div><!--
+     --><div class="city-view">
           <img src="img/content-image-feature1.jpg" width="800" height="256" alt="Фото города">
-        </div>
-      </section>
-      <section class="advices">
+        </div><!--
+   --></section>
+      <section class="advices clearfix">
         <div class="advice">
           <div class="advices-icon house-icon">
             <img src="img/icon-house.png" width="75" height="72" alt="">
@@ -58,14 +58,14 @@
           <b class="advice-name">Жилье</b>
           <p class="advice-description">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
         </div>
-        <div class="advice">
+        <div class="advice advice-margin">
           <div class="advices-icon food-icon">
             <img src="img/icon-burger.png" width="74" height="70" alt="">
           </div>
           <b class="advice-name">Еда</b>
           <p class="advice-description">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
         </div>
-        <div class="advice advice-right">
+        <div class="advice advice-margin">
           <div class="advices-icon souvenir-icon">
             <img src="img/icon-souvenir.png" width="64" height="76" alt="">
           </div>
@@ -78,23 +78,23 @@
           <img src="img/content-image-feature2.jpg" width="800" height="256" alt="Фото моста">
         </div>
         <div class="photo-features">
-          <b class="photo-features-name">Там есть мост дьявола</b>
+          <b class="photo-features-name">Там есть<br>мост дьявола</b>
           <div class="photo-features-number">— №2 —</div>
           <p class="photo-features-paragraph">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-        </div>
-      </section>
+        </div><!--
+   --></section>
       <section class="features-without-photo clearfix">
         <div class="text-features">
           <b>Небольшая площадь</b>
           <div>— №3 —</div>
           <p>Все достопримечательности находятся очень близко</p>
         </div>
-        <div class="text-features">
+        <div class="text-features text-margin">
           <b>Красивая дорога</b>
           <div>— №4 —</div>
           <p>Ехать в седону из лас-вегаса совсем не скучно!</p>
         </div>
-        <div class="text-features text-right">
+        <div class="text-features text-margin">
           <b>Мало туристов</b>
           <div>— №5 —</div>
           <p>Большинство едет в гранд каньон и толпится там</p>
@@ -106,49 +106,52 @@
           <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
         </div>
       </div>
-      <div class="search-from-title" hidden>
+      <div class="search-title">
         <b>Поиск гостиницы в Седоне</b>
       </div>
-      <div class="search-form" hidden>
+      <div class="search-form">
         <form action="#" method="post">
           <div class="date">
-            <label for="date-in-field">Дата заезда:</label>
-            <input type="date" name="date-in" id="date-in-field">
+            <label class="date-label">Дата заезда:<input type="text" name="date-in" class="sedona-search date-form date-extra-margin" value="24 апреля 2017"></label>
+            <a href="#" class="calendar">
+              <i class="icon-calendar"></i>
+            </a>
           </div>
           <div class="date">
-            <label for="date-out-field">Дата выезда:</label>
-            <input type="date" name="date-out" id="date-out-field">
+            <label class="date-label">Дата выезда:<input type="text" name="date-out" class="sedona-search date-form" value="4 июля 2017"></label>
+            <a href="#" class="calendar">
+              <i class="icon-calendar icon-calendar-down"></i>
+            </a>
           </div>
           <div class="age">
-            <label for="age-adults-field">Взрослые:</label>
-            <input type="text" name="age-adults" id="age-adults-field">
-            <label for="age-children-field">Дети:</label>
-            <input type="text" name="age-children" id="age-children-field">
+            <label class="date-label">Взрослые:<input type="text" name="age-adults" class="sedona-search age-form" value="2"></label>
+              <i class="icon-minus icon-minus-left"></i>
+              <i class="icon-plus icon-plus-left"></i>
+            <label class="date-label">Дети:<input type="text" name="age-children" class="sedona-search age-form age-extra-margin" value="0"></label>
+              <i class="icon-minus"></i>
+              <i class="icon-plus"></i>
           </div>
           <button type="submit" class="btn">Найти</button>
         </form>
       </div>
-      <div class="map-photo">
-        <img src="img/background-map.jpg" width="1200" height="473" alt="Местоположение города">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d498202.95006931084!2d-111.88122326992082!3d34.88270488061969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1493389205749" width="1200" height="473" frameborder="0" style="border:0" allowfullscreen>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d498202.95006931084!2d-111.88122326992082!3d34.88270488061969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1493389205749" width="1200" height="585" style="border:0" allowfullscreen>
         </iframe>
       </div>
     </main>
-    <footer class="main-footer">
-      <div class="container">
+    <footer class="container main-absolute-fix">
+      <div class="main-footer after-map-footer">
         <div class="footer-column sedona-tag">
           <a href="#" class="tag">#visitsedona</a>
         </div>
         <div class="footer-column">
-          <a href="#" class="social social-twitter"></a>
-          <a href="#" class="social social-facebook"></a>
-          <a href="#" class="social social-youtube"></a>
+          <a href="#" class="social social-twitter"><span class="social-text">Twitter</span></a>
+          <a href="#" class="social social-facebook"><span class="social-text">Facebook</span></a>
+          <a href="#" class="social social-youtube"><span class="social-text">Youtube</span></a>
         </div>
         <div class="footer-column">
           <div class="label-logo">Website by</div>
-          <a href="https://htmlacademy.ru/intensive/htmlcss" class="intensive">
-            <img src="img/logo-html-academy.png" width="113" height="39" alt="Website by html academy">
-          </a>
+          <a href="https://htmlacademy.ru/intensive/htmlcss" class="intensive"></a>
         </div>
       </div>
     </footer>

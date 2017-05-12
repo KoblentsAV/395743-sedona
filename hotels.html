@@ -62,19 +62,19 @@
             </div>
           </div>
           <div class="filter filter-price">
-            <b class="filter-title">Стоимость в сутки (р)</b>
-            <div>
-              <label for="price-min-field">от</label>
-              <input type="text" name="price-min" id="price-min-field" value="0">
-              <label for="price-max-field">до</label>
-              <input type="text" name="price-max" id="price-max-field" value="3000">
+            <b class="filter-title">Стоимость в сутки (р):</b>
+            <div class="price-controls">
+              <label class="min-price">от<input type="text" name="min-price" value="0"></label>
+              <label class="max-price">до<input type="text" name="max-price" value="3000"></label>
             </div>
-            <div>
-              <input type="range" name="slider" id="slider-price" min="0" max="3000" step="10" value="500">
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="range-toggle range-toggle-min"></div>
+              <div class="range-toggle range-toggle-max"></div>
             </div>
-            <div>
-              <button type="submit" class="btn">Показать</button>
-            </div>
+            <button class="btn-transparent" type="submit">Показать</button>
           </div>
         </form>
       </section>
@@ -97,11 +97,13 @@
           <div class="big-title hotel-title">amara resort & spa</div>
           <p class="how-much">гостиница</p>
           <p class="how-much">от 4000 р.</p>
-          <a href="#" class="push details">подробнее</a><!--
-       --><a href="#" class="push reserve">забронировать</a><!--
-     --></div>
+          <div class="next-row">
+            <a href="#" class="push details">подробнее</a><!--
+         --><a href="#" class="push reserve">забронировать</a><!--
+       --></div>
+       </div>
         <div class="rating-star">
-          <div class="rating-icon"></div>
+          <div class="rating-icon">star</div>
           <p class="rating-number">рейтинг: 8,5</p>
   			</div>
       </article>
@@ -113,11 +115,13 @@
           <div class="big-title hotel-title">desert quail inn</div>
           <p class="how-much">мотель</p>
           <p class="how-much">от 3000 р.</p>
-          <a href="#" class="push details">подробнее</a><!--
-  		 --><a href="#" class="push reserve">забронировать</a><!--
-     --></div>
+          <div class="next-row">
+            <a href="#" class="push details">подробнее</a><!--
+    		 --><a href="#" class="push reserve">забронировать</a><!--
+       --></div>
+        </div>
         <div class="rating-star">
-          <div class="rating-icon star-3"></div>
+          <div class="rating-icon star-3">star</div>
           <p class="rating-number">рейтинг: 8,9</p>
   			</div>
       </article>
@@ -129,30 +133,30 @@
           <div class="big-title hotel-title">villas at poco diablo</div>
           <p class="how-much">апартаменты</p>
           <p class="how-much">от 2000 р.</p>
-          <a href="#" class="push details">подробнее</a><!--
-  		 --><a href="#" class="push reserve">забронировать</a><!--
-     --></div>
+          <div class="next-row">
+            <a href="#" class="push details">подробнее</a><!--
+    		 --><a href="#" class="push reserve">забронировать</a><!--
+       --></div>
+        </div>
         <div class="rating-star">
-          <div class="rating-icon star-2"></div>
+          <div class="rating-icon star-2">star</div>
           <p class="rating-number">рейтинг: 9,2</p>
   			</div>
       </article>
     </main>
-    <footer class="main-footer">
-      <div class="container">
+    <footer class="container">
+      <div class="main-footer">
         <div class="footer-column sedona-tag">
           <a href="#" class="tag">#visitsedona</a>
         </div>
         <div class="footer-column">
-          <a href="#" class="social social-twitter"></a>
-          <a href="#" class="social social-facebook"></a>
-          <a href="#" class="social social-youtube"></a>
+          <a href="#" class="social social-twitter"><span class="social-text">Twitter</span></a>
+          <a href="#" class="social social-facebook"><span class="social-text">Facebook</span></a>
+          <a href="#" class="social social-youtube"><span class="social-text">Youtube</span></a>
         </div>
         <div class="footer-column">
           <div class="label-logo">Website by</div>
-          <a href="https://htmlacademy.ru/intensive/htmlcss" class="intensive">
-            <img src="img/logo-html-academy.png" width="113" height="39" alt="Website by html academy">
-          </a>
+          <a href="https://htmlacademy.ru/intensive/htmlcss" class="intensive"></a>
         </div>
       </div>
     </footer>
