@@ -615,11 +615,11 @@ a img {
 	color: white;
 }
 
-input[type="checkbox"] {
+.check input[type="checkbox"] {
 	display: none;
 }
 
-input[type="checkbox"] + label {
+.check input[type="checkbox"] + label {
 	display: block;
 	position: relative;
 	line-height: 21px;
@@ -628,7 +628,7 @@ input[type="checkbox"] + label {
 	cursor: pointer;
 }
 
-input[type="checkbox"] + label::before {
+.check input[type="checkbox"] + label::before {
 	content: "";
 	position: absolute;
 	width: 22px;
@@ -638,7 +638,7 @@ input[type="checkbox"] + label::before {
 	left: 0;
 }
 
-input[type="checkbox"]:checked + label::after {
+.check input[type="checkbox"]:checked + label::after {
 	content: "";
 	position: absolute;
 	width: 26px;
@@ -648,7 +648,7 @@ input[type="checkbox"]:checked + label::after {
 	left: 0;
 }
 
-input[type="checkbox"]:disabled + label {
+.check input[type="checkbox"]:disabled + label {
 	opacity: 0.35;
 }
 
