@@ -648,13 +648,7 @@ input[type="checkbox"]:checked + label::after {
 	left: 0;
 }
 
-input[type="checkbox"] + label:disabled {
-	content: "";
-	opacity: 0.35;
-}
-
-input[type="checkbox"]:checked + label:disabled {
-	content: "";
+input[type="checkbox"]:disabled + label {
 	opacity: 0.35;
 }
 
