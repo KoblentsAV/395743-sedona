@@ -181,6 +181,10 @@ a img {
 	margin: 0 41px 0 46px;
 }
 
+.features-with-photo .paragraph-first {
+	margin: 0 50px 0 50px;
+}
+
 .city-view {
   display: inline-block;
   width: 66%;
@@ -695,7 +699,7 @@ input[type="checkbox"]:checked + label:disabled {
 .price-controls label {
   display: inline-block;
   font-size: 14px;
-  line-height: 38px;
+  line-height: 21px;
   vertical-align: top;
   cursor: pointer;
 }
